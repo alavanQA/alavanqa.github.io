@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Documentation repository for alavanQA material and tutorials",
     "main": "index.js",
-    "repository": "https://github.com/alavanQA/alavanqa-docs.github.io",
+    "repository": "git@github.com:alavanQA/alavanqa-docs.github.io.git",
     "author": "alavanQA",
     "license": "\\MIT",
     "devDependencies": {
