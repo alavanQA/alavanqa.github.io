@@ -1,10 +1,10 @@
 {
-    "name": "alavanqa-docs",
+    "name": "alavanqa-docs.github.io",
     "version": "1.0.0",
     "description": "Documentation repository for alavanQA material and tutorials",
     "main": "index.js",
-    "repository": "git@github.com\"vinipx/alavanqa-docs.github.io.git",
-    "author": "vinipx",
+    "repository": "git@github.com:alavanQA/alavanqa-docs.github.io.git",
+    "author": "alavanQA",
     "license": "\\MIT",
     "devDependencies": {
       "nodemon": "^2.0.7",
