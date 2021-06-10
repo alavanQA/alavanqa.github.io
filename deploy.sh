@@ -19,5 +19,5 @@ git commit -m 'deploy'
 git push -f git@github.com:alavanQA/alavanqa.github.io.git master:main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:alavanqa/alavanqa-docs.github.io.git main:gh-pages
+# git push -f git@github.com:alavanqa/alavanqa.github.io.git main:gh-pages
 cd -

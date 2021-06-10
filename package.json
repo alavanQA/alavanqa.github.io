@@ -1,9 +1,10 @@
 {
-    "name": "teste",
+    "name": "alavanqa.github.io",
     "version": "1.0.0",
     "description": "Documentation repository for alavanQA material and tutorials",
     "main": "index.js",
-    "repository": "git@github.com:alavanQA/alavanqa-docs.github.io.git",
+    "repository": "git@github.com:alavanQA/alavanqa.github.io.git",
+    "base": "alavanqa.github.io",
     "author": "alavanQA",
     "license": "\\MIT",
     "devDependencies": {
