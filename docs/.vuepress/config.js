@@ -67,7 +67,7 @@ module.exports = {
             },
             {
                 text: 'GitHub',
-                link: 'https://github.com/alavanQA/alavanqa-docs.github.io'
+                link: 'https://github.com/alavanQA/alavanqa.github.io'
             },
             {
                 text: 'Discord',
