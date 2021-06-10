@@ -5,7 +5,7 @@ module.exports = {
             href: '/assets/logo.png'
         }]
     ],
-    base: '/alavanqa-docs.github.io/',
+    base: '/',
     title: 'alavanQA Docs',
     description: 'Documentation Repository for alavanQA material',
     themeConfig: {
