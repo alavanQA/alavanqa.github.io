@@ -1,11 +1,16 @@
 #!/usr/bin/env sh
 
+
 # abort on errors
 set -eu
 
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
 exec 1>deployResult.txt 2>&1
+
+PAGE_BRANCH="gh-pages"
+# abort on errors
+set -e
 
 # build
 yarn docs:build
