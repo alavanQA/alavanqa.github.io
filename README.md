@@ -18,11 +18,10 @@ yarn install
 
 ## Building the website locally + HotReload
 
-- Set permission access to the shell script execution:
-```bash 
-chmod +x aqabuild.sh
-```
-- Run: 
+_Note: you might need permission granted to executed the script. Run: `chmod +x aqabuild.sh`_
+
+Open the terminal and run: 
+
 ```bash
 ./aqabuild.sh
 ```
@@ -36,6 +35,7 @@ _Note: if you are using VS Studio, simply press `Ctrl+k s`_
 
 ## Deployment - publishing alavanQA repository
 
+_Note: you might need permission granted to executed the script. Run: `chmod +x deploy.sh`_
 
 Open the terminal and run:
 
