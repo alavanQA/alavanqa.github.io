@@ -18,8 +18,13 @@ yarn install
 
 ## Building the website locally + HotReload
 
+- Set permission access to the shell script execution:
+```bash 
+chmod +x aqabuild.sh
+```
+- Run: 
 ```bash
-./aqadocs.sh
+./aqabuild.sh
 ```
 
 alavanQA website will be served at: `http://localhost:8080/` (port may vary)
@@ -30,24 +35,6 @@ _Note: if you are using VS Studio, simply press `Ctrl+k s`_
 
 
 ## Deployment - publishing alavanQA repository
-
-
-**IMPORTANT:** Make sure web site was built with the desired changes.
-
-
-Open the terminal and run one of the following options:
-```bash
-./aqadocs.sh
-```
-
-or
-
-```bash
-yarn docs:build
-```
-
-
-### Publishing
 
 
 Open the terminal and run:
