@@ -23,7 +23,7 @@ _Note: you might need permission granted to executed the script. Run: `chmod +x 
 Open the terminal and run: 
 
 ```bash
-./aqabuild.sh
+./build.sh
 ```
 
 alavanQA website will be served at: `http://localhost:8080/` (port may vary)
