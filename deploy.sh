@@ -9,6 +9,7 @@ trap 'exec 2>&4 1>&3' 0 1 2 3
 exec 1>deploy.log 2>&1
 
 echo '=== > Step 1/6 - Git - Initializing repository to be published'
+yarn build:docs
 cd docs/.vuepress/dist/
 git init
 echo '=== > Step 2/6 - Git - Commiting changes'
