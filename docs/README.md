@@ -14,3 +14,5 @@ features:
   details: zzzzzzzzzzzzzzzzzzzzzzzz
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+
+<ToggleDarkMode />

@@ -8,11 +8,7 @@ module.exports = {
     base: '/',
     title: 'alavanQA Docs',
     description: 'Documentation Repository for alavanQA material',
-    theme: 'reco',
     themeConfig: {
-        logo: '/assets/logo.png',
-        mode: 'light',
-        modePicker: true,
         logo: '/assets/logo.png',
         nav: [{
                 text: 'About',
