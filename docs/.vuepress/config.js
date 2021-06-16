@@ -10,9 +10,6 @@ module.exports = {
     description: 'Documentation Repository for alavanQA material',
     themeConfig: {
         logo: '/assets/logo.png',
-        mode: 'light',
-        modePicker: true,
-        logo: '/assets/logo.png',
         nav: [{
                 text: 'About',
                 link: '/',
