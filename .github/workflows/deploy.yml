@@ -1,4 +1,4 @@
-name: Deploy to alavanQA to GitHub Pages
+name: Deploy and Publish alavanQA site to GitHub Pages
 
 on:
   push:
