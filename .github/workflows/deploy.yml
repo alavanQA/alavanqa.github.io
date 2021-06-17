@@ -24,6 +24,8 @@ jobs:
           cd docs/.vuepress/dist
           git init
           git add -A
+          git config --global user.email "alavanqa@gmail.com"
+          git config --global user.name "alavanQA"
           git commit -m 'deploy'
 
       - name: Force push to main branch to be published
