@@ -19,16 +19,16 @@ jobs:
       - run: npm run build
 
       - name: Init new repo in dist folder and commit static files generated
-          run: |
-            cd docs/.vuepress/dist
-            git init
-            git add -A
-            git commit -m 'deploy'
+        run: |
+          cd docs/.vuepress/dist
+          git init
+          git add -A
+          git commit -m 'deploy'
 
       - name: Force push to main branch to be published
-          uses: ad-m/github-push-action@v0.5.0
-          with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            branch: main
-            force: true
-            directory: ./docs/.vuepress/dist
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
+          directory: ./docs/.vuepress/dist
