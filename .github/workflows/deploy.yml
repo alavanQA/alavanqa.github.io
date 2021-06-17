@@ -17,7 +17,7 @@ jobs:
           node-version: '12.x'
       - run: |
           yarn install
-          yarn run build
+          yarn run docs:build
 
       - name: Init new repo in dist folder and commit static files generated
         run: |
