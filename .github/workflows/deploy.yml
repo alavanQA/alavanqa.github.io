@@ -22,6 +22,7 @@ jobs:
       - name: Init new repo in dist folder and commit static files generated
         run: |
           cd docs/.vuepress/dist
+          echo "www.alavanqa.com" > CNAME
           git init
           git add -A
           git config --global user.email "alavanqa@gmail.com"
