@@ -1,0 +1,37 @@
+name: Deploy and Publish alavanQA site to GitHub Pages
+
+on:
+  push:
+    branches: [ source ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Generate static vuepress files
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - run: |
+          yarn install
+          yarn run docs:build
+
+      - name: Init new repo in dist folder and commit static files generated
+        run: |
+          cd docs/.vuepress/dist
+          git init
+          git add -A
+          git config --global user.email "alavanqa@gmail.com"
+          git config --global user.name "alavanQA"
+          git commit -m 'deploy'
+
+      - name: Force push to main branch to be published
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
+          directory: ./docs/.vuepress/dist
